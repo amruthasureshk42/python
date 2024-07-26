@@ -1,0 +1,12 @@
+queue=[]
+queue.append('M')
+queue.append('N')
+queue.append('O')
+print('initial queue:')
+print(queue)
+print('\n Elements popped from queue:')
+print(queue.pop(0))
+print(queue.pop(0))
+print(queue.pop(0))
+print('\n Elements after popping')
+print(queue)
