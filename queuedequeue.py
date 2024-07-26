@@ -1,0 +1,13 @@
+from collections import deque
+q= deque()
+q.append('g')
+q.append('f')
+q.append('i')
+print("Initial queue")
+print(q)
+print("\nElemets dequeued from the queue")
+print(q.popleft())
+print(q.popleft())
+print(q.popleft())
+print("\nQueue after removing elements")
+print(q)
